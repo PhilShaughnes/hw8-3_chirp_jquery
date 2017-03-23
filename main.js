@@ -17,7 +17,7 @@ function showdata(data){
             </a>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">${croak.username}<span class="text-right"> ${croak.created_at}</span></h4>
+            <h4 class="media-heading">${croak.username}<a class="text-right"> ${moment(croak.created_at).fromNow()}</a></h4>
             ${croak.message}
           </div>
         </div>
