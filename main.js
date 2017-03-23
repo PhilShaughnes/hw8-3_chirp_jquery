@@ -9,7 +9,7 @@ function showdata(data){
   var list = document.querySelector("#croaks")
   data.forEach(
     croak => {
-      media = `<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 panel btn-default">
+      media = `<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1 panel btn-default">
         <div class="media">
           <div class="media-left">
             <a href="#">
